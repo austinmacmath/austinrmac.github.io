@@ -1,0 +1,83 @@
+@font-face { font-family: Blackout-2am; src: url('Blackout-2am.ttf'); } 
+@font-face { font-family: Blackout-Midnight; src: url('Blackout-Midnight.ttf'); } 
+
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    color: #1F355B;
+    font-size: 125%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+mark {
+    background-color: #FFFFFF;
+    color: #34A6FF;
+}
+
+div.title {
+    position: relative;
+    text-align: center;
+    top: 40vh;
+    font-family: Blackout-Midnight;
+    font-size: 500%;
+}
+
+span.Running {
+    font-family: Blackout-2am;
+    color: #34A6FF
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1F355B;
+}
+
+a.contact {
+    color: #34A6FF;
+}
+
+a.contact:visited {
+    color: #34A6FF;
+}
+
+a.contact:hover {
+    color: #1f1f1f;
+}
+
+a.team:hover {
+    color: #34A6FF;
+}
+
+a.practices:hover {
+    color: #34A6FF;
+}
+
+a.gallery:hover {
+    color: #34A6FF;
+}
+
+a.racecalendar:hover {
+    color: #34A6FF;
+}
