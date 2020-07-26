@@ -21,6 +21,14 @@ div.title {
     font-size: 700%;
 }
 
+div.ComingSoon {
+    position: relative;
+    text-align: center;
+    top: 40vh;
+    font-family: Blackout-Midnight;
+    font-size: 400%;
+}
+
 span.Running {
     font-family: Blackout-2am;
     color: #34A6FF;
@@ -64,6 +72,10 @@ a.contact:visited {
 
 a.contact:hover {
     color: #1f1f1f;
+}
+
+a.home:hover {
+    color: #34A6FF;
 }
 
 a.team:hover {
