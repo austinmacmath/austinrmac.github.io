@@ -1,2 +1,2 @@
-# austinrmac.github.io
-Austin Mac Website
+# UCSB Running Club Website
+In development. 
