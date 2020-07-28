@@ -29,6 +29,21 @@ div.ComingSoon {
     font-size: 400%;
 }
 
+div.CalendarTitle {
+    position: relative;
+    text-align: center;
+    top: 5vh;
+    font-family: Blackout-Midnight;
+    font-size: 300%;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
 span.Running {
     font-family: Blackout-2am;
     color: #34A6FF;
